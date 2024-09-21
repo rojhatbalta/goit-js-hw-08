@@ -69,7 +69,7 @@ const ul = document.querySelector("ul.gallery");
 const html = images
   .map(
     (img) =>
-      `<li class="gallery.item"><a class="gallery-link" href="${img.original}"><img src="${img.preview}" data-source="${img.original}" alt="${img.description}" class="gallery-image"/></a></li>`
+      `<li class="gallery.item"><a class="gallery-link" href=${img.original}><img src=${img.preview} data-source=${img.original} alt=${img.description} class="gallery-image"/></a></li>`
   )
   .join("");
 
